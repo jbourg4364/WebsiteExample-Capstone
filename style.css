@@ -1,0 +1,285 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    
+}
+
+
+/* Header */
+figcaption {
+    color: black;
+    font-weight: lighter;
+    font-size: 32px;
+    position: absolute;
+    padding-left: 40px;
+    
+}
+
+header img {
+    height: 50px;
+}
+
+span {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+nav a {
+    margin-right: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(74, 74, 74)
+}
+
+
+/* Banner */
+#banner {
+    background-color: rgb(229, 226, 226);
+    width: 100%;
+    align-items: center;
+}
+
+#banner img {
+    width: 60%;
+    padding: 32px 0px 32px 24px;
+}
+
+#banner .content {
+    padding-left: 50px;
+}
+
+#banner h1 {
+    font-weight: bold;
+    font-size: 45px;
+    color: rgb(74, 74, 74);
+    line-height: 25px;
+}
+
+#banner p {
+    color: rgb(74, 74, 74);
+    font-size: 25px;
+    padding-right: 75px;
+}
+
+.button h2 a {
+    color: white;
+    background-color: rgb(74, 74, 74);
+    font-weight: lighter;
+    width: fit-content;
+    padding: 8px 125px;
+    font-size: 20px;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+
+/* Practice */
+#practice {
+    margin: 32px;
+    color: rgb(74, 74, 74);
+}
+
+.practice-left {
+    width: 60%;
+}
+
+#practice .practice-left img {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#practice h1 {
+    font-size: 35px;
+}
+
+#practice p {
+    margin-top: 24px;
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: 1px;
+    word-spacing: 6px;
+    color: gray;
+}
+
+
+.practice-list {
+    flex-direction: column;
+    width: 40%;
+    justify-content: space-evenly;
+}
+
+.practice-list img {
+    align-items: left;
+    width: 40%;
+}
+
+figure figcaption {
+    font-size: 15px;
+    display: inline-block;
+    align-content: center;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.practice-list h2 {
+    color:  rgb(74, 74, 74);
+}
+
+.practice-list h3 {
+    font-weight: lighter;
+}
+
+.practice-list a {
+    color: blue;
+    text-decoration: none;
+    
+}
+
+.figbackground {
+    background-color: rgb(231, 229, 229);
+}
+
+
+/* Start Learning */
+#online {
+    text-align: center;
+    background-color:  rgb(231, 229, 229);
+    padding-top: 32px;
+    color:rgb(74, 74, 74);
+    width: 100%;
+    padding-bottom: 32px;
+}
+
+.online-contents{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contents {
+    display: inline-block;
+    font-size: 12px;
+    text-align: left;
+    background-color: white;
+    margin: 16px;
+
+}
+
+.contents img {
+    height: auto;
+    width: 400px;
+}
+
+.contents h2, h3 {
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 350px;
+}
+
+.contents h3 {
+    font-weight: lighter;
+}
+
+
+/* Thesis Exhibit */
+#thesis h1 {
+    text-align: center;
+    color:rgb(74, 74, 74);
+    padding-top: 20px;
+}
+
+.thesis-content .left-side {
+    display: flex;
+    flex-direction: column;
+    color: rgb(74, 74, 74);
+    padding-right: 500px;
+    margin-right: 0;
+    padding-left: 24px;
+}
+
+#thesis video {
+    margin-left: 30px;
+    width: 90%;
+}
+
+#thesis h4 {
+   margin-left: 30px;
+   font-weight: lighter;
+   padding-right: 200px;
+   
+}
+
+.thesis-content .right-side {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 0px;
+    width: 35%;
+    align-content: center;
+    height: 595px;
+
+}
+
+#thesis img {
+    width: 30%;
+    height: auto;
+
+}
+
+.thesis-content {
+    display: flex;
+    align-items: center;
+ 
+}
+
+.right-side h3 {
+    font-weight: lighter;
+    color: rgb(74, 74, 74);
+}
+
+.right-side h2 {
+    margin-left: 15px;
+}
+
+.thesis-content h3 {
+    margin-left: 15px;
+    margin-bottom: 1px;
+}
+
+.thesis-content h4 {
+    margin-bottom: 32px;
+}
+
+
+/* Footer */
+#footer {
+    border-top: 1px solid rgb(105, 105, 105);
+    width: 100%;
+    color:rgb(74, 74, 74);
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#footer h4 {
+    font-weight: lighter;
+    margin-left: 24px;
+}
+
+#footer li {
+    list-style: none;
+    display: inline;
+    padding: 5px;
+    margin-right: 24px;
+}
